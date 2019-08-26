@@ -1,0 +1,10 @@
+.table td {
+    color: brown;
+}
+
+.table {
+    border-radius: 5px;
+    width: 80%;
+    margin: 0px auto;
+    float: none;
+}

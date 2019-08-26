@@ -1,0 +1,14 @@
+<p class="text-center"><br/><br/><span class="h2">Découvrez nos produits</span><br/><br/></p>
+
+<div class="container-fluid">
+ <table class="table table-hover text-centered">
+  <tbody>
+  <tr *ngFor="let produit of produits">
+    <td class="hidden">{{produit.id}}</td>
+    <td style="font-weight: bold">{{produit.description}}</td>
+    <td style="font-weight: bold">{{produit.prix}} TND</td>
+    <td><img class=img-responsive style=width:40% src="data:image/png;base64,{{produit.photo}}" alt=""/></td>
+  </tr>
+  </tbody>
+ </table>
+</div>

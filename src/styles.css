@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*MEDIA QUERIES*/
+@media (max-width: 767px) {
+    /* Rules for smartphones only */
+  
+body {
+    margin-top: 50px;
+    /*uniquement dans le cas d'une navbar-fixed-bottom */
+    /* margin-bottom: 50px; */ 
+}
+#f{
+    width: 200px; 
+}
+
+#formulaire{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
